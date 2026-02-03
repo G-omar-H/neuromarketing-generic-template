@@ -275,9 +275,9 @@ The contact form currently shows success messages. To make it functional:
 
 ## 🎨 Brand Colors
 
-- **Primary Red**: #C8102E (Moroccan flag red)
-- **Gold**: #FFD700 (Premium accent)
-- **Green**: #006233 (Moroccan flag green)
+- **Primary Color**: Defined in `styles.css` (e.g., #333333)
+- **Accent Color**: Defined in `styles.css` (e.g., #007bff)
+- **Secondary Color**: Defined in `styles.css` (e.g., #666666)
 - **Dark**: #1a1a1a (Text)
 
 ## 📄 License
