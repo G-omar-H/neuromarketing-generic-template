@@ -17,28 +17,24 @@ A modern, multilingual e-commerce website for StoreName, featuring premium Moroc
 ```
 storename/
 ├── index.html              # Homepage
-├── products.html           # Products listing page
-├── product-detail.html     # Individual product detail page
-├── cart.html              # Shopping cart page
-├── checkout.html          # Checkout page
-├── confirmation.html      # Order confirmation page
-├── track-order.html       # Order tracking page
-├── styles.css             # Main stylesheet
-├── script.js              # Main JavaScript functionality
-├── translations.js        # Multilingual translations
-├── cart.js                # Shopping cart logic
-├── checkout.js            # Checkout functionality
-├── paypal-config.js       # PayPal configuration
-├── analytics.js           # Google Analytics & Vercel Analytics
-├── sendit-config.js       # Sendit API configuration
-├── sendit-integration.js  # Sendit shipping integration
-├── sendit-config.local.js.example  # Sendit config template
-├── test-sendit.html       # Sendit API testing page (optional)
-├── Sendit_API_docs.txt   # Sendit API documentation
-├── SENDIT_INTEGRATION_README.md  # Sendit integration guide
-├── SETUP_SENDIT.md        # Sendit setup instructions
+├── config.js              # BRAND CONFIGURATION (Start Here)
+├── styles.css             # VISUAL IDENTITY (Colors/Fonts)
+├── translations.js        # CONTENT & COPY
+├── assets/                # Images & Logos
+├── server/                # Backend API
+├── docs/                  # Detailed Documentation (PayPal, Sendit, Images)
+├── scripts/               # Utility Scripts
+├── BRAND_SETUP_GUIDE.md   # Zero to Launch Guide
 └── README.md              # This file
 ```
+
+## 📚 Documentation
+
+Detailed guides can be found in the `docs/` folder:
+- **Shipping**: [Sendit Integration](docs/SENDIT_INTEGRATION_README.md)
+- **Payments**: [PayPal Setup](docs/PAYPAL_TRACKING_SETUP.md)
+- **Images**: [Optimization Guide](docs/IMAGE_OPTIMIZATION_GUIDE.md)
+- **Production**: [Checklist](docs/PRODUCTION_CHECKLIST.md)
 
 ## 🚀 Getting Started
 
